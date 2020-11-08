@@ -69,3 +69,8 @@ To build and run Docker containers use the following command:
 ```
 docker-compose up --build --remove-orphans
 ```
+## Test
+To run tests:
+```
+python tests.py
+```
