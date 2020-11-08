@@ -1,0 +1,2 @@
+FLASK_APP=food_app.py
+FLASK_DEBUG=1
