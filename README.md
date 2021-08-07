@@ -2,19 +2,19 @@
 Backend server for a recipe website.
 
 <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
-     alt="Markdown Node icon"
+     alt="Markdown Python icon"
      height="30px"
 />&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.onlinewebfonts.com/svg/img_437027.png"
-     alt="Markdown Node icon"
+     alt="Markdown Flask icon"
      height="30px"
 />&nbsp;&nbsp;
 <img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg"
-     alt="Markdown Node icon"
+     alt="Markdown Postgre icon"
      height="30px"
 />&nbsp;&nbsp;&nbsp;
 <img src="https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png"
-     alt="Markdown Node icon"
+     alt="Markdown Docker icon"
      height="30px"
 />
 
@@ -68,4 +68,9 @@ This will ensure that the Docker hosted database credentials are secure.
 To build and run Docker containers use the following command:
 ```
 docker-compose up --build --remove-orphans
+```
+## Test
+To run tests:
+```
+python tests.py
 ```
